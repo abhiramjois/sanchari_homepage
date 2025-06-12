@@ -1,6 +1,10 @@
 # Sanchari Homepage
 
-This is a webapp built for the sanchari server. It has a way to easily add services with thumbnail, audio note and link to view. The add page lets you edit, delete, reorder the services.
+This is a webapp built for the sanchari server. It has a way to easily add services with thumbnail, audio note and link to view. The add page lets you edit, delete, reorder the services. To add items go to **url/add.**
+
+![](static/readme1.png)
+
+![](static/readme2.png)
 
 ## Folder structure
 
