@@ -1,0 +1,22 @@
+items:
+  - title: |-
+      ಪ್ರಥಮ್ ಬುಕ್ಸ್  
+      Pratham Book Library
+    url: http://localhost:5173/add
+    image: f95976db-ad07-4a0e-aff4-baa63bb4fd96.JPG
+    audio: a450ebd6-04e9-42e8-a8d4-f2d590718cbb.mp3
+    createdAt: '2025-05-29T05:13:37.029Z'
+  - title: |-
+      ವಿಕಿಪೀಡಿಯ
+      Wikipedia
+    url: http://localhost:5173/add
+    image: c9239bcc-51ef-4d36-b3f6-f72b7b9f1c99.jpg
+    audio: 088071e1-0702-4b27-849c-f6d16bb3f3fd.webm
+    createdAt: '2025-06-02T07:30:23.386Z'
+  - title: |-
+      ಅರವಿಂದ್ ಗುಪ್ತ ಆರ್ಕೈವ್ಸ್ 
+      Arvind Gupta Archives
+    url: http://localhost:5173/add
+    image: d785683d-6326-4784-bef3-fa683e80a416.jpg
+    audio: b908eda1-ee04-4262-a202-0de3f3f95c86.mp3
+    createdAt: '2025-05-29T05:12:16.729Z'
