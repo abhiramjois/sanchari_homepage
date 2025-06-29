@@ -1,6 +1,6 @@
 # Sanchari Homepage
 
-This is a webapp built for the sanchari server. It has a way to easily add services with thumbnail, audio note and link to view. The add page lets you edit, delete, reorder the services. To add items go to **url/add.**
+Sanchari is a server designed to host offline repositories for mesh networks in rural Karnataka. These interfaces are designed and built to visual, bilingual, audio-video focused to enable ease of access for communities that do not rely heavily on text literacy. This webapp is the homepage component for the sanchari server. It has a way to easily add services with thumbnail, audio note and link to view. The add page lets you edit, delete, reorder the services. To add items go to **url/add.**
 
 ![](static/readme1.png)
 
