@@ -53,7 +53,7 @@
   <title>Dashboard - Items</title>
 </svelte:head>
 
-<div class="mb-6 py-6 px-5 lg:px-0 max-w-7xl mx-auto">
+<div class="pb-12 py-6 px-5 lg:px-0 max-w-7xl mx-auto h-full">
   {#if error}
     <div
       class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4"

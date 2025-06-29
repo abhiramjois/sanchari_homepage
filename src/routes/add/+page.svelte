@@ -539,7 +539,7 @@ async function deleteItem(index) {
       {:else}
         <div class="divide-y divide-gray-200">
           {#each items as item, index}
-            <div class="p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div class="p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 w-full">
               <div class="flex items-center gap-4 w-full">
                 {#if item.image}
                   <img src={`/api/images/${item.image}`} alt={item.title} class="w-16 h-16 object-cover rounded-md" />
@@ -547,11 +547,19 @@ async function deleteItem(index) {
                   <div class="w-16 h-16 bg-gray-200 rounded-md flex items-center justify-center text-sm text-gray-400">No img</div>
                 {/if}
 
-                <div class="flex-1">
+                <div class="flex-1 min-w-0">
                   <h4 class="font-medium text-gray-900">{item.title}</h4>
-                  <div class="space-y-1">
+                  <div class="space-y-1 overflow-hidden break-words">
                     {#if item.url}
-                      <a href={item.url} target="_blank" class="text-blue-600 hover:underline text-sm block">{item.url}</a>
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        title={item.url}
+                        class="text-blue-600 hover:underline text-sm block break-words whitespace-normal w-full"
+                        style="word-break: break-word;"
+                      >
+                        {item.url}
+                      </a>
                     {:else}
                       <span class="text-gray-500 text-sm">No URL</span>
                     {/if}
@@ -564,7 +572,7 @@ async function deleteItem(index) {
                       </div>
                     {/if}
                   </div>
-                </div>
+                </div>                            
               </div>
 
               <div class="flex gap-2">

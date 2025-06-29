@@ -25,7 +25,7 @@
 	</div>
 </nav>
   
-  <main class="bg-yellow-200 min-h-screen">
+  <main class="bg-yellow-200 min-h-screen pb-10">
 	<slot />
   </main>
   
